@@ -8,10 +8,10 @@ In a trunking radio system, neighbouring cells must be configured correctly in t
 This program reads in the exported HTML file from UCS's "Source site ACC" and imports the information to a installed Neo4j database.
 
 ## Prerequisite
-*You should have Python 3 (I used version 3.5.4)
-*You should have Python packet called beautifulsoup4 installed
-*You should have Python packet called neo4j-driver installed
-*You should have Neo4j installed and running with an empty database.
+* You should have Python 3 (I used version 3.5.4)
+* You should have Python packet called beautifulsoup4 installed
+* You should have Python packet called neo4j-driver installed
+* You should have Neo4j installed and running with an empty database.
 
 #Usage
 
