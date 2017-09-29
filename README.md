@@ -24,9 +24,9 @@ To use this program you will need to follow these steps:
 3. Now edit the script "Neo_ImportData.py" and make sure the Neo4j username and password are correct. They are palced in the top of the file.
 4. Run the script described in step 3.
 5. Open browser to Neo4j web interface and run the following query:
-'''
+```
 MATCH (s1:Site)-[r:ACC]->(s2:Site)
 WHERE (s1)-[:ACC]->(s2)
 AND NOT (s2)-[:ACC]->(s1)
 RETURN s1, r, s2
-'''
+```
